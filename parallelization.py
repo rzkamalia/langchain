@@ -26,7 +26,8 @@ graph.add_node("d", ReturnNodeValue("I'm D"))
 
 graph.add_edge(START, "a")
 graph.add_edge("a", "b")
-graph.add_edge("b", "c")
+graph.add_edge("a", "c")
+graph.add_edge("b", "d")
 graph.add_edge("c", "d")
 graph.add_edge("d", END)
 graph = graph.compile()
@@ -35,7 +36,7 @@ graph = graph.compile()
 # the result:
 # Adding I'm A to []
 # Adding I'm B to ["I'm A"]
-# Adding I'm C to ["I'm A", "I'm B"]
+# Adding I'm C to ["I'm A"]
 # Adding I'm D to ["I'm A", "I'm B", "I'm C"]
 
 
