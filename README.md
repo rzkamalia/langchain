@@ -105,12 +105,15 @@
 
 + for long-term, there are two types: 
     + profile
+
     ![long-term-profile](assets/long-term-profile.png)
 
     + collection
+
     ![long-term-collection](assets/long-term-collection.png)
 
     + comparison between those types:
+    
     ![profile-vs-collection](assets/profile-vs-collection.png)
 
 ### Deployment
